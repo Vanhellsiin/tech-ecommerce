@@ -1,0 +1,43 @@
+.slideContainer {
+    width: 100vw;
+}
+.swiperContainer {
+    background-color: #333333;
+    padding: 20px;
+    width: 100vw;
+}
+.title {
+    margin: 80px 20px 10px;
+    font-size: 30px;
+    font-family: 'Share Tech', sans-serif;
+    color: #dcdcdc;
+}
+.sliderbg {
+    width:200px;
+    color: white;
+    background-color: #1e2020d8;
+    margin: 20px 20px 20px 20px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1200px) {
+    .sliderbg {
+        width: 18vw
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .swiperContainerRes {
+        display: block;
+        padding: 30px;
+        width: 100vw;
+        background-color: #333333;
+    }
+    .sliderbg {
+        width: 30vw;
+    }
+    .sliderbg img {
+        margin: 30px
+    }
+}

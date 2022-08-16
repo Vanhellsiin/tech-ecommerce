@@ -1,0 +1,49 @@
+.img {
+    margin-top: 3rem;
+    width: 800px;
+    height: 300px;
+    object-fit: cover;
+    padding: 1px;
+    border-radius: 8px;
+}
+
+.texto {
+    font-weight: 400;
+    font-family: 'Share Tech', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.containerNews {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    width: 1200px;
+    margin: 0 auto;
+    border-top: 1px solid #33333380;
+    padding: 20px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 150px;
+    font-weight: bold;
+    /* background: url('https://c.tenor.com/Zco-fadJri4AAAAd/code-matrix.gif'); */
+    background: url('https://i.gifer.com/3HeE.gif');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.newsTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #01F603;
+    text-transform: uppercase;
+}
